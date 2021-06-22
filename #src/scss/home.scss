@@ -1,0 +1,137 @@
+//====================================================================================================
+.services {
+	&__container {
+	}
+
+	&__title {
+		max-width: 640px;
+		font-weight: 800;
+		font-size: 64px;
+		line-height: 64 / 64 * 100%;
+		margin: 100px 0px 100px 0px;
+	}
+
+	&__light {
+	}
+
+	&__items {
+		position: relative;
+	}
+
+	&__slider {
+		max-width: 586px;
+	}
+
+	&__offers {
+		flex-direction: column;
+		flex: 1 1 auto;
+		*:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	&__climatec-control {
+		justify-content: space-between;
+	}
+}
+
+.services-content {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 150px;
+	&:last-child {
+		margin-bottom: 200px;
+	}
+}
+.slider-left {
+	margin-right: 114px;
+
+	&__item {
+	}
+
+	&__slider-img {
+	}
+}
+.offers {
+	display: flex;
+	flex-direction: column;
+
+	&__num {
+		font-weight: 800;
+		font-size: 18px;
+		line-height: 18 / 18 * 100%;
+		text-transform: lowercase;
+		margin-bottom: 15px;
+		color: #00ecc2;
+	}
+
+	&__title {
+	}
+
+	&__info {
+	}
+
+	&__list {
+	}
+
+	&__list-item {
+	}
+
+	&__list-link {
+		color: #fff;
+		position: relative;
+		padding-left: 35px;
+		&::before {
+			content: "";
+			position: absolute;
+			height: 2px;
+			width: 20px;
+			background: #00ecc2;
+			border-radius: 20px;
+			top: 50%;
+			left: 0;
+		}
+		&:hover:before {
+			box-shadow: 0px 0px 10px #00ecc2;
+			transition: all 0.5s esea 0;
+		}
+		&:hover {
+			color: #00ecc2;
+		}
+	}
+
+	&__list-link--active {
+	}
+}
+.services-title {
+	font-weight: 800;
+	font-size: 36px;
+	line-height: 36 / 36 / 100%;
+	margin-bottom: 30px;
+}
+.item-list {
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 24 / 24 * 100%;
+	margin-bottom: 25px;
+	&:last-child {
+		margin-bottom: 0px;
+	}
+}
+.offers-right {
+	&__list-item {
+	}
+}
+.offers-left {
+	&__list-item {
+	}
+}
+.slider-right {
+	&__item {
+	}
+
+	&__slider-img {
+	}
+}
+
+//====================================================================================================
